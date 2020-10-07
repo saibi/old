@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Hello_by_hand' target in the 'Hello_by_hand' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

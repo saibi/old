@@ -1,0 +1,65 @@
+- browser engine : gecko, webkit
+
+
+- p73 fig 04-02 오류 수정 , p88 fig 04-19 도 마찬가지 
+	UIResponder : 이벤트 처리 클래스
+		UIView : 사용자 인터페이스 클래스 
+			UIWebview : 웹 표시 뷰 클래스 
+
+
+- xcode 에서 new project 생성시 중간에 표시되는
+	( ) Use Core Data for storage 
+	데이터 처리 방식 (sql lite 보다 처리속도가 빠른 편 ??? )
+	iphone3 programming 책에 설명 나옴 
+
+
+- 책 내용대로 안될 수 도 있음 
+	iphone SDK Version 차이로 인해 
+
+- UI tool bar 클릭시 해당 object 가 바로 선택되는 것이 아니라 가장 하단에 있는 아이템이 선택된다.
+
+- UIBarButtonItem
+	tag 는 아이템을 식별할 수 있는 .......
+
+- 고정폭 여백 사용시 주의사항
+	가로보기/세로보기 전환시 고정폭일 경우 크기가 조정되지 않는다. 
+
+- bar button item 기본 아이콘 속성외에 다른 용도 사용시 app store 심사에서 거절될 수 있다. 
+	또한 이미지 버튼 사용시 유사한 이미지를 사용할경우 기능 유사 정도에 따라 app store 에서 거절될 수 있다. 
+
+
+- Objective-C MVC paradigm 기반 
+	model,        view, 
+	       control
+
+
+- allocation, retain 일 경우 (@property 에서 assign/retain 차이점 찾아볼 것)
+	alloc +1, release -1
+
+- categories
+	class 를 확장 하고자 할 때 
+
+
+- controller
+	. delegation
+	. target/action
+	. notification (cocoa NSNotification 찾아볼 것)
+
+- outlet (target)
+
+- action
+
+
+
+- IBOutlet
+	xcode 내에 구현된 class object 와 nib 파일에 interface builder 로 구현한 object 를 연결하기 위해 
+	outlet 추가시 interface builder 를 종료한 후 다시 실행해야 해당 code 가 반영된다. 
+
+
+- IBAction
+	event 발생시 해당 event 를 처리할 수 있는 코드를 식별하기 위해 xcode 에서 해당 method 앞에 선언한다. 
+
+
+- xcode 에서 도움말 보기 
+	. option key 를 누른상태에서 해당 keyword double click
+
